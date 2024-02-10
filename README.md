@@ -9,8 +9,8 @@ Firstly, the dataset has been analysed. We applied data augmentation to enhance 
 <img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model3cm.png width="50%" align="center">
 </p>   
 <p align="center">
-<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model3accuracy.png width="48%" align="left">
-<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model3loss.png width="48%" align="right">
+<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model3accuracy.png width="45%" align="left">
+<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model3loss.png width="45%" align="right">
 </p>   
 <br/><br/>
 <br/><br/>
@@ -22,8 +22,8 @@ In the second challenge we had to create a Neural Network to predict future samp
 decided to use during the first training a window of 200 and a stride of 10. During the challenge, we fine-tuned these two parameters. The model which gave a best accuray is model4, composed by an LSTM of 64 units, a dropout layer, another LSTM of 128 units, one Global Average Pooling layer and another dropout. Both LSTMs had kernel regularized and recurrent regularizer.  
 
 <p align="center">
-<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model4_mae.png width="48%" align="left">
-<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model4_rmse.png width="48%" align="right">
+<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model4_mae.png width="45%" align="left">
+<img src=https://github.com/titaniumwhite/AN2DL-challenges/blob/main/images/model4_rmse.png width="45%" align="right">
 </p>   
 
 
